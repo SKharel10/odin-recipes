@@ -4,7 +4,15 @@ Global:
  */
 * {
   font-family: Arial, sans-serif;
+  background-color: rgb(0, 0, 0);
+  color: white;
+  background: linear-gradient(
+    270deg,
+    rgba(33, 111, 210, 1) 28%,
+    rgba(0, 212, 255, 1) 73%
+  );
 }
+
 /*
 Unordered List Styling:
 - List styling & spacing.
@@ -35,4 +43,8 @@ List anchor hover styling:
 */
 li a:hover {
   text-decoration: underline;
+}
+
+h1.odin-title {
+  color: rgb(220, 228, 220);
 }
