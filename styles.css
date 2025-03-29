@@ -1,52 +1,45 @@
-/* 
-Global:
-- Set universal font
- */
 * {
   font-family: Arial, sans-serif;
 }
 
 body {
-  background: linear-gradient(
-    270deg,
-    rgba(33, 111, 210, 1) 28%,
-    rgba(0, 212, 255, 1) 73%
-  );
+  background-color: rgb(33, 29, 29);
 }
 
-/*
-Unordered List Styling:
-- List styling & spacing.
-*/
 ul {
   list-style-type: disc; /* Other options: circle, square, none */
   padding-left: 20px;
   font-size: 16px;
+  color: white;
 }
-/* 
-List Styling: 
-- Spacing of list elements
-*/
+
 li {
-  padding-bottom: 3px;
+  padding-bottom: 10px;
 }
-/* 
-List anchor styling:
-- Removed default underline
-*/
+
 li a {
   color: white;
   text-decoration: none;
   padding-bottom: 10px;
 }
-/* 
-List anchor hover styling:
-- Added underline on hover
-*/
+
 li a:hover {
   text-decoration: underline;
 }
 
 h1.odin-title {
   color: rgb(255, 255, 255);
+}
+
+.lasagna-img img {
+  width: 400px;
+  height: auto;
+}
+
+h1,
+h3,
+.description,
+p,
+li {
+  color: white;
 }
